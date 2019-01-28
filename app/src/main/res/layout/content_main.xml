@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <android.support.v4.widget.NestedScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/lin1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/visitor"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@color/orange"
+                        />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/visitor"
+                        android:layout_centerHorizontal="true"
+                        android:text="visitors"
+                        android:layout_centerInParent="true"
+                        android:textStyle="bold"
+                        android:textColor="@color/orange"
+
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/child"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="#00ce89"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/child"
+                        android:layout_centerHorizontal="true"
+                        android:text="child security"
+                        android:layout_centerInParent="true"
+                        android:textStyle="bold"
+                        android:textColor="#00ce89"
+
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/rest"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="#dbb51e"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rest"
+                        android:layout_centerHorizontal="true"
+                        android:text="others"
+                        android:layout_centerInParent="true"
+                        android:textStyle="bold"
+                        android:textColor="#dbb51e"
+
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

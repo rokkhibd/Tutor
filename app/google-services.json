@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "894198629864",
+    "firebase_url": "https://tutor-94fef.firebaseio.com",
+    "project_id": "tutor-94fef",
+    "storage_bucket": "tutor-94fef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894198629864:android:28a2e1084b568910",
+        "android_client_info": {
+          "package_name": "huwi.joldi.abrar.tutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894198629864-vpj7lb341lmdnk11d3sjj9up3filnr45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "huwi.joldi.abrar.tutor",
+            "certificate_hash": "af4b3babd79a7e86f3d2046090cfd0f438abbc44"
+          }
+        },
+        {
+          "client_id": "894198629864-e9lenkh6i6fu6vim6ghblu64ijsatb4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD69T3rtwbMrs5Bdtx0v23AMrrFt-fz4yc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894198629864-e9lenkh6i6fu6vim6ghblu64ijsatb4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
